@@ -30,13 +30,8 @@
     combos {
         compatible = "zmk,combos";
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         esc {
-            bindings = <&kp ESC>;
+            bindings = <&kp TAB>;
             key-positions = <0 1>;
         };
     };

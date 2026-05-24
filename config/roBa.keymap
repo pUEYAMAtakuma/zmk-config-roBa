@@ -77,8 +77,8 @@
             bindings = <
 &kp Q             &kp W         &kp E             &kp R    &kp T                                                               &kp Y      &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D             &kp F    &kp G                   &kp CARET                    &kp SQT        &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V    &kp B                   &kp DOLLAR                   &kp BACKSLASH  &kp N      &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &kp TAB  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 ESCAPE      &kp BACKSPACE  &kp ENTER                             &mo 2
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V    &kp B                   &kp DOLLAR                   &kp BACKSLASH  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &kp TAB  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 ESCAPE      &kp BACKSPACE  &kp ENTER                             &kp RIGHT_SHIFT
             >;
         };
 
@@ -93,10 +93,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                             &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE    &trans        &trans        &trans      &kp C_BRI_INC  &kp PAGE_UP    &kp DOWN      &kp UP_ARROW  &trans        &kp DELETE
-&trans        &trans        &trans        &trans        &trans        &trans      &kp C_BRI_DEC  &kp PAGE_DOWN  &kp LEFT      &kp RIGHT     &mo 6         &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans         &kp C_MUTE                                               &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &trans         &trans    &kp UP_ARROW     &kp C_BRI_UP   &kp DELETE
+&kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE    &trans        &trans        &trans      &kp HOME  &kp PAGE_UP    &kp DOWN  &kp RIGHT_ARROW  &kp C_BRI_DEC  &trans
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0        &trans      &kp END   &kp PAGE_DOWN  &kp LEFT  &trans           &mo 6          &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans    &trans                                                   &trans
             >;
         };
 
@@ -120,8 +120,8 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp PAGE_UP    &trans  &kp HOME  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp PAGE_DOWN  &trans  &kp END   &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &kp PAGE_UP    &trans  &kp HOME  &kp END
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp PAGE_DOWN  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans         &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
             >;
@@ -129,10 +129,10 @@
 
         function {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F11  &kp F12  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans   &trans   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5                       &trans  &trans  &trans           &trans  &trans
+&trans  &trans  &trans  &trans   &trans   &trans      &trans  &trans  &trans  &trans           &trans  &trans
+&kp F6  &kp F7  &kp F8  &kp F9   &kp F10  &trans      &trans  &trans  &trans  &kp RIGHT_SHIFT  &trans  &trans
+&trans  &trans  &trans  &kp F11  &kp F12  &trans      &trans  &trans                                   &trans
             >;
         };
     };
